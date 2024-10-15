@@ -42,8 +42,8 @@ function show_task(){
     <div class="test2">
         <div class="task-conteiner ${item.complete && "done"}">${item.task}</div>
         <div class="img">
-            <img src="../checked.png" class="img-conc" onclick="finish_task(${index})">
-            <img src="../cancel.png" class="img-cancel" onclick="delete_task(${index})"></img>
+            <img src="checked.png" class="img-conc" onclick="finish_task(${index})">
+            <img src="cancel.png" class="img-cancel" onclick="delete_task(${index})"></img>
         </div>
     </div>
 
